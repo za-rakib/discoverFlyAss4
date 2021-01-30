@@ -34,15 +34,15 @@ function getTicketInput(ticket) {
     const ticketCount = parseInt(ticketInput.value);
     return ticketCount;
 }
- //booking 
+//booking 
 
- document.getElementById('booking-button').addEventListener('click',function(){
-   
+document.getElementById('booking-button').addEventListener('click', function () {
+
     //calculateTotal();
-  alert(
-    "You have conformed "+ document.getElementById("first-class-ticket-count").value+ " first class ticket , "+  document.getElementById("economy-class-ticket-count").value +" economy class ticket." +" Your total cost is: " + document.getElementById(
-        "total-price").innerText +
-    " only."+"\r\n"+ "Thank you for staying with us! Have a safe journey sir.")
+    alert(
+        "You have conformed " + document.getElementById("first-class-ticket-count").value + " first class ticket , " + document.getElementById("economy-class-ticket-count").value + " economy class ticket." + " Your total cost is: " + document.getElementById(
+            "total-price").innerText +
+        " only." + "\r\n" + "Thank you for staying with us! Have a safe journey sir.")
 
- })
+})
 
